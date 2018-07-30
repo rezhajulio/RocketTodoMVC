@@ -1,6 +1,7 @@
 # Rocket MVC
 
 A web application build in [Rust](https://www.rust-lang.org/). It use [Rocket](https://rocket.rs) & [Diesel](http://diesel.rs/).
+Default Rocket app does not have any boilerplate or scaffolding.
 
 This sample just an application who allow you to edit todo.
 
