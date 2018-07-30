@@ -1,0 +1,11 @@
+{{#*inline "content"}}
+<h1>New Todo</h1>
+<form action="/todos" method="POST">
+    <div class="form-group">
+        <label for="name">Task</label>
+        <input type="text" class="form-control" name="task">
+    </div>
+    <input type="submit" class="btn btn-secondary">
+</form>
+{{/inline}}
+{{~> layouts/main~}}

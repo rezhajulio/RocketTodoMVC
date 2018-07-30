@@ -1,0 +1,13 @@
+{{#*inline "content"}}
+<h1>List of Todo</h1>
+<ul>
+	{{#each this}}
+		<li><a href="/todos/{{id}}">{{task}}</a></li>
+	{{/each}}
+</ul>
+
+<a href="/todos/new" class="btn btn-secondary">Create new todo</a>
+
+{{/inline}}
+
+{{~> layouts/main~}}

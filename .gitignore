@@ -1,0 +1,4 @@
+/target/
+**/*.rs.bk
+db/development.sqlite
+.env
