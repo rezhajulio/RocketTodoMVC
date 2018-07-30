@@ -13,13 +13,11 @@ extern crate diesel_codegen;
 
 use rocket_contrib::Template;
 
-
 mod controller;
-mod model;
-mod form;
 mod database;
+mod form;
+mod model;
 mod schema;
-
 
 fn main() {
     rocket::ignite()

@@ -1,4 +1,3 @@
-
 use diesel::prelude::*;
 use diesel::LimitDsl;
 use diesel::LoadDsl;
