@@ -3,7 +3,7 @@
 A web application build in [Rust](https://www.rust-lang.org/). It use [Rocket](https://rocket.rs) & [Diesel](http://diesel.rs/).
 Default Rocket app does not have any boilerplate or scaffolding.
 
-This sample just an application who allow you to edit todo.
+This sample just an application which allow you to CRUD todo.
 
 - **List** todo: GET /todos 
 - **Create** todo: POST /todos
