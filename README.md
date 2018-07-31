@@ -1,4 +1,4 @@
-# Rocket MVC
+# Rocket Todo MVC
 
 A web application build in [Rust](https://www.rust-lang.org/). It use [Rocket](https://rocket.rs) & [Diesel](http://diesel.rs/).
 Default Rocket app does not have any boilerplate or scaffolding.
@@ -35,7 +35,7 @@ $ rustup override set nightly
 Then install [diesel_cli](https://github.com/diesel-rs/diesel/tree/master/diesel_cli) and run database migrations
 
 ~~~bash
-$ cargo install diesel_cli --no-default-features --features sqlite
+$ cargo install diesel_cli --no-default-features --features postgres
 $ diesel setup
 $ diesel migration run
 ~~~
